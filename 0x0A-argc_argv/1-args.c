@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 /**
   * main - main entry point
@@ -5,9 +6,9 @@
   * @argv: array of arguments
   * Return: always success
   */
-int main(int argc, char *argv[] _attribute_((unused)))
+int main(int argc, char *argv[])
 {
-	printf("%d", argc - 1);
-	printf("\n");
+	(void) argv;
+	printf("%d\n", argc - 1);
 	return (0);
 }
