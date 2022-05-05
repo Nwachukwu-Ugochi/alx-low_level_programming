@@ -1,15 +1,14 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 /**
- * main - Main
- * @argc: int type
- * @argv: char type
- * Return: prints files name
- **/
-int main(int argc, char *argv[])
+ * main - main entry point
+ * @argc: no of parameters
+ * @argv: array of parameters
+ * Return: always sucess
+*/
+int main(int argc __attribute__((unused)), char *argv[])
 {
-(void) argc;
-printf("%s\n", argv[0]);
-
-return (0);
+	printf("%s", argv[0]);
+	printf("\n");
+	return (0);
 }
