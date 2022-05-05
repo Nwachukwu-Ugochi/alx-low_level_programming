@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Mian
+ * main - Main
  * @argc: int type
  * @argv: char type
- * Return: printis files name
+ * Return: prints files name
  **/
 int main(int argc, char *argv[])
 {
